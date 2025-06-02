@@ -598,12 +598,10 @@ video {
 }
 
 .min-h-fit {
-  min-height: -moz-fit-content;
   min-height: fit-content;
 }
 
 .w-fit {
-  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -612,7 +610,6 @@ video {
 }
 
 .min-w-fit {
-  min-width: -moz-fit-content;
   min-width: fit-content;
 }
 
