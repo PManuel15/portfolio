@@ -1,59 +1,121 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>TrainsIHM</title>
-    <link href="../../css/style.css" rel="stylesheet" />
+    <link href="../../css/style.css" rel="stylesheet"/>
 </head>
-<header class="bg-sky-700 text-white">
-    <div class="flex justify-center">
-        <h1 class="m-4 rounded-lg border border-sky-500 bg-sky-600 px-4 py-1 hover:border-sky-100 hover:bg-sky-500"><a href="../biographie.html"> Biographie </a></h1>
-        <h1 class="m-4 rounded-lg border border-sky-500 bg-sky-600 px-4 py-1 hover:border-sky-100 hover:bg-sky-500"><a href="../../recource/Pons-CV.pdf"> CV </a></h1>
-        <h1 class="m-4 rounded-lg border border-sky-500 bg-sky-600 px-4 py-1 hover:border-sky-100 hover:bg-sky-500"><a href="../projet.html"> Projets </a></h1>
-        <h1 class="m-4 rounded-lg border border-sky-500 bg-sky-600 px-4 py-1 hover:border-sky-100 hover:bg-sky-500"><a href="https://www.linkedin.com/in/manuel-pons-1572aa2aa/"> LinkedIn </a></h1>
-        <h1 class="m-4 rounded-lg border border-sky-500 bg-sky-600 px-4 py-1 hover:border-sky-100 hover:bg-sky-500"><a href="https://github.com/PManuel15"> Github </a></h1>
+<header class="bg-orange-700 text-white">
+    <div class="flex justify-center flex-wrap">
+        <a href="../biographie.html"><h1
+                class="m-4 rounded-lg border border-orange-500 bg-orange-600 px-4 py-1 hover:border-orange-100 hover:bg-orange-500">
+            Biographie </h1></a>
+        <a href="../../recource/Pons-CV.pdf" target="_blank"><h1
+                class="m-4 rounded-lg border border-orange-500 bg-orange-600 px-4 py-1 hover:border-orange-100 hover:bg-orange-500">
+            CV </h1></a>
+        <a href="../projet.html"><h1
+                class="m-4 rounded-lg border border-orange-500 bg-orange-600 px-4 py-1 hover:border-orange-100 hover:bg-orange-500">
+            Projets </h1></a>
+        <a href="https://www.linkedin.com/in/manuel-pons-1572aa2aa/" target="_blank"><h1
+                class="m-4 rounded-lg border border-orange-500 bg-orange-600 px-4 py-1 hover:border-orange-100 hover:bg-orange-500">
+            LinkedIn </h1></a>
+        <a href="https://github.com/PManuel15" target="_blank"><h1
+                class="m-4 rounded-lg border border-orange-500 bg-orange-600 px-4 py-1 hover:border-orange-100 hover:bg-orange-500">
+            Github </h1></a>
     </div>
 </header>
-<body class="bg-sky-100">
-<main class="flex justify-center bg-sky-100">
+<body class="bg-orange-100">
+<main class="flex justify-center bg-orange-100">
     <div class="m-28 flex max-h-6 w-fit max-w-3xl flex-wrap justify-center text-justify">
-        <div class="m-10 flex flex-col justify-between gap-10 rounded-lg border border-sky-600 bg-sky-200 p-4 shadow-md shadow-sky-400">
+        <div class="m-10 flex flex-col justify-between gap-10 rounded-lg border border-orange-600 bg-orange-200 p-4 shadow-md shadow-orange-400">
             <div class="flex flex-col gap-5">
                 <h1 class="text-2xl font-bold">Projet Trains – Développement d'un jeu de plateau en Java</h1>
-                <p>Dans le cadre de ma formation au BUT Informatique, j'ai eu l'opportunité de travailler sur un projet de développement d'un jeu de plateau inspiré du jeu japonais Trains. Ce projet a constitué un excellent terrain d'application pour plusieurs compétences techniques, allant de la programmation orientée objet à l'algorithmique des graphes, en passant par le développement d'interfaces graphiques et l'intégration de tests unitaires.</p>
+                <p>Dans le cadre de ma formation au BUT Informatique, j'ai eu l'opportunité de travailler sur un projet
+                    de développement d'un jeu de plateau inspiré du jeu japonais Trains. Ce projet a constitué un
+                    excellent terrain d'application pour plusieurs compétences techniques, allant de la programmation
+                    orientée objet à l'algorithmique des graphes, en passant par le développement d'interfaces
+                    graphiques et l'intégration de tests unitaires. Ce travaile a était réaliser en 3 mois en
+                    binome.</p>
                 <h2 class="text-xl font-bold">Présentation du jeu</h2>
-                <p>Le jeu Trains consiste à construire un réseau ferroviaire sur un plateau représentant une région autour de Tokyo ou Osaka. Les joueurs, à leur tour, doivent jouer des cartes qui leur permettent non seulement d'acheter de nouvelles cartes pour améliorer leur deck, mais aussi de placer des rails et des villes sur le plateau afin d'étendre leur réseau. L'objectif étant de connecter des villes tout en optimisant l'utilisation des ressources disponibles.</p>
+                <p>Le jeu Trains consiste à construire un réseau ferroviaire sur un plateau représentant une région
+                    autour de Tokyo ou Osaka. Les joueurs, à leur tour, doivent jouer des cartes qui leur permettent non
+                    seulement d'acheter de nouvelles cartes pour améliorer leur deck, mais aussi de placer des rails et
+                    des villes sur le plateau afin d'étendre leur réseau. L'objectif étant de connecter des villes tout
+                    en optimisant l'utilisation des ressources disponibles.</p>
             </div>
             <div class="flex flex-col gap-5">
                 <h2 class="text-xl font-bold">Phases de développement</h2>
 
                 <h3 class="text-lg font-bold">Phase 1 : Développement de la mécanique du jeu</h3>
-                <p>Dans un premier temps, j'ai développé la mécanique du jeu en Java, en m'occupant de la gestion des cartes, des joueurs, ainsi que des règles principales du jeu. Cela m'a permis de travailler sur la modélisation des objets, l'implémentation de la logique métier et la gestion des interactions entre les différentes entités du jeu. En parallèle, j'ai également implémenté un système de pioche et de gestion des cartes, permettant de simuler l'ensemble des actions d'un joueur lors de son tour.</p>
-                <img src="../../recource/image/DiagrammeDeClasses.png" />
+                <p>Dans un premier temps, j'ai développé la mécanique du jeu en Java, en m'occupant de la gestion des
+                    cartes, des joueurs, ainsi que des règles principales du jeu. Cela m'a permis de travailler sur la
+                    modélisation des objets, l'implémentation de la logique métier et la gestion des interactions entre
+                    les différentes entités du jeu. En parallèle, j'ai également implémenté un système de pioche et de
+                    gestion des cartes, permettant de simuler l'ensemble des actions d'un joueur lors de son tour.</p>
+                <img src="../../recource/image/DiagrammeDeClasses.png"/>
                 <h3 class="text-lg font-bold">Phase 2 : Algorithmique des graphes</h3>
-                <p>Lors de la deuxième phase, l'accent a été mis sur l'algorithmique des graphes. Le jeu reposant sur la notion de réseau ferroviaire, j'ai intégré des algorithmes permettant de déterminer les connexions entre les villes en fonction des rails posés. Cela m'a permis d'approfondir mes connaissances en structures de données et en algorithmique, notamment en utilisant des algorithmes de recherche sur des graphes pour déterminer si un joueur peut atteindre une ville donnée avec son réseau.</p>
+                <p>Lors de la deuxième phase, l'accent a été mis sur l'algorithmique des graphes. Le jeu reposant sur la
+                    notion de réseau ferroviaire, j'ai intégré des algorithmes permettant de déterminer les connexions
+                    entre les villes en fonction des rails posés. Cela m'a permis d'approfondir mes connaissances en
+                    structures de données et en algorithmique, notamment en utilisant des algorithmes de recherche sur
+                    des graphes pour déterminer si un joueur peut atteindre une ville donnée avec son réseau.</p>
 
                 <h3 class="text-lg font-bold">Phase 3 : Interface graphique</h3>
-                <p>Enfin, la dernière phase du projet a consisté à implémenter une interface graphique sous JavaFX. Cette étape m'a permis de rendre le jeu interactif et visuellement attractif, en proposant une interface où les joueurs peuvent voir leur réseau ferroviaire se développer en temps réel. Le challenge ici a été d'intégrer cette interface avec la logique du jeu, tout en maintenant une fluidité dans l'interaction. La gestion des événements, la mise à jour des éléments visuels et l'affichage des actions des joueurs ont constitué les principaux aspects techniques de cette phase.</p>
-                <img src="../../recource/image/img.png" />
+                <p>Enfin, la dernière phase du projet a consisté à implémenter une interface graphique sous JavaFX.
+                    Cette étape m'a permis de rendre le jeu interactif et visuellement attractif, en proposant une
+                    interface où les joueurs peuvent voir leur réseau ferroviaire se développer en temps réel. Le
+                    challenge ici a été d'intégrer cette interface avec la logique du jeu, tout en maintenant une
+                    fluidité dans l'interaction. La gestion des événements, la mise à jour des éléments visuels et
+                    l'affichage des actions des joueurs ont constitué les principaux aspects techniques de cette
+                    phase.</p>
+                <img src="../../recource/image/img.png"/>
             </div>
             <div class="flex flex-col gap-5">
                 <h2 class="text-xl font-bold">Qualité du code</h2>
-                <p>Tout au long du projet, j'ai porté une attention particulière à la qualité du code. Afin d'assurer le bon fonctionnement du jeu, j'ai rédigé une série de tests unitaires qui vérifient les fonctionnalités de base et les cas particuliers du jeu. Ces tests ont permis de garantir que le projet fonctionne correctement, mais aussi d'améliorer la fiabilité du code au fur et à mesure de l'avancement des phases de développement. L’utilisation des tests unitaires m’a aussi permis de faciliter le débogage et d’optimiser la structure du code en suivant les bonnes pratiques de développement.</p>
+                <p>Tout au long du projet, j'ai porté une attention particulière à la qualité du code. Afin d'assurer le
+                    bon fonctionnement du jeu, j'ai rédigé une série de tests unitaires qui vérifient les
+                    fonctionnalités de base et les cas particuliers du jeu. Ces tests ont permis de garantir que le
+                    projet fonctionne correctement, mais aussi d'améliorer la fiabilité du code au fur et à mesure de
+                    l'avancement des phases de développement. L’utilisation des tests unitaires m’a aussi permis de
+                    faciliter le débogage et d’optimiser la structure du code en suivant les bonnes pratiques de
+                    développement.</p>
             </div>
             <div class="flex flex-col gap-5">
                 <h2 class="text-xl font-bold">Compétences mises en œuvre</h2>
                 <ul class="flex list-disc flex-col gap-2 p-4">
-                    <li>Programmation orientée objet (POO) : J'ai conçu et structuré le jeu en utilisant les principes de la POO, en créant des classes pour les entités principales du jeu comme les cartes, les joueurs et le plateau. Cela m'a permis de gérer la complexité du projet tout en maintenant un code lisible et modulaire.</li>
-                    <li>Algorithmique et structures de données (graphes) : Le jeu reposant sur un réseau ferroviaire, j'ai utilisé des graphes pour modéliser et gérer les connexions entre les villes. Cela m'a permis de mettre en œuvre des algorithmes de recherche de chemins et de connexion dans un réseau, une compétence essentielle pour la résolution de problèmes complexes.</li>
-                    <li>Développement d'applications avec JavaFX : Pour rendre le jeu interactif, j'ai utilisé JavaFX afin de créer une interface graphique permettant aux joueurs de visualiser et interagir avec le jeu. Cela m'a permis de développer mes compétences en conception d’interfaces utilisateur et en gestion des événements dans une application graphique.</li>
-                    <li>Tests unitaires et qualité de code : Tout au long du projet, j'ai écrit des tests unitaires afin de m'assurer que toutes les fonctionnalités du jeu fonctionnent correctement. La rédaction de ces tests m'a permis d'implémenter une approche centrée sur la qualité du code, en évitant les erreurs et en optimisant le comportement du jeu.</li>
+                    <li>Programmation orientée objet (POO) : J'ai conçu et structuré le jeu en utilisant les principes
+                        de la POO, en créant des classes pour les entités principales du jeu comme les cartes, les
+                        joueurs et le plateau. Cela m'a permis de gérer la complexité du projet tout en maintenant un
+                        code lisible et modulaire.
+                    </li>
+                    <li>Algorithmique et structures de données (graphes) : Le jeu reposant sur un réseau ferroviaire,
+                        j'ai utilisé des graphes pour modéliser et gérer les connexions entre les villes. Cela m'a
+                        permis de mettre en œuvre des algorithmes de recherche de chemins et de connexion dans un
+                        réseau, une compétence essentielle pour la résolution de problèmes complexes.
+                    </li>
+                    <li>Développement d'applications avec JavaFX : Pour rendre le jeu interactif, j'ai utilisé JavaFX
+                        afin de créer une interface graphique permettant aux joueurs de visualiser et interagir avec le
+                        jeu. Cela m'a permis de développer mes compétences en conception d’interfaces utilisateur et en
+                        gestion des événements dans une application graphique.
+                    </li>
+                    <li>Tests unitaires et qualité de code : Tout au long du projet, j'ai écrit des tests unitaires afin
+                        de m'assurer que toutes les fonctionnalités du jeu fonctionnent correctement. La rédaction de
+                        ces tests m'a permis d'implémenter une approche centrée sur la qualité du code, en évitant les
+                        erreurs et en optimisant le comportement du jeu.
+                    </li>
                 </ul>
 
-                <p>Ce projet a non seulement été une expérience technique enrichissante, mais aussi une occasion de travailler de manière autonome et d’approfondir mes compétences en développement logiciel. J'ai particulièrement apprécié la complexité du jeu, qui m'a permis d'explorer différentes facettes du développement, tout en respectant des contraintes de conception strictes. Ce projet a aussi été une excellente préparation pour des projets plus complexes, notamment en gestion d’état et en gestion d’interfaces graphiques.</p>
+                <p>Ce projet a non seulement été une expérience technique enrichissante, mais aussi une occasion de
+                    travailler de manière autonome et d’approfondir mes compétences en développement logiciel. J'ai
+                    particulièrement apprécié la complexité du jeu, qui m'a permis d'explorer différentes facettes du
+                    développement, tout en respectant des contraintes de conception strictes. Ce projet a aussi été une
+                    excellente préparation pour des projets plus complexes, notamment en gestion d’état et en gestion
+                    d’interfaces graphiques. Grâce à ce travail j'ai réalisé que la communication entre mon partenaire
+                    été la clef de la réussite ainsi que la confiance et la répartition des tâches.</p>
             </div>
         </div>
     </div>
 </main>
 </body>
 </html>
+x
